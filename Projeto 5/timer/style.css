@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+
+}
+
+body{
+    background-image: url("https://static.preparaenem.com/2020/12/ano-novo.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    color: white;
+    margin-top: 10rem;
+}
+
+.countdown-container{
+    display: flex;
+
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: white;
+}
+
+.countdown-el {
+    text-align: center;
+    color: white;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
